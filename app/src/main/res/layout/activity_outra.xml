@@ -6,24 +6,33 @@
     android:layout_height="match_parent"
     tools:context="matc89.exercicio2.MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
+    <EditText
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:layout_centerHorizontal="true"
-        android:text="Oi!"
+        android:text=""
         android:textSize="20dp"/>
 
     <Button
-        android:id="@+id/btnTrocar"
+        android:id="@+id/btnConfirmar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/editText"
         android:layout_marginTop="25dp"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorPrimaryText"
-        android:text="Trocar usuário"
-        android:textColor="@color/colorTextWhite"/>
+        android:background="@color/colorAccent"
+        android:text="Confirmar"/>
+
+    <Button
+        android:id="@+id/btnCancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConfirmar"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryLight"
+        android:text="Cancelar"/>
 
 </RelativeLayout>
